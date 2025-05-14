@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import ArrowIcon from "../assets/whiteArrow.svg";
 const Navbar = ({ lang, toggleLanguage, heroSectionRef, handleScroll }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -28,7 +28,7 @@ const Navbar = ({ lang, toggleLanguage, heroSectionRef, handleScroll }) => {
             >
               <p className="mr-1 font-bold text-[15px]">{lang.toUpperCase()}</p>
               <img
-                src="src/assets/white arrow.svg"
+                src={ArrowIcon}
                 alt="arrow"
                 className={`transform transition-transform duration-300 ${
                   dropdownOpen ? "rotate-180" : ""
@@ -60,12 +60,3 @@ const Navbar = ({ lang, toggleLanguage, heroSectionRef, handleScroll }) => {
 };
 
 export default Navbar;
-
-{
-  /* <div className="flex rounded-3xl px-3 py-2 bg-[#0087F5] text-white items-center mr-4">
-  <p className="font-bold text-[15px]">{lang === "ru" ? "RU" : "EN"}</p>
-  <button onClick={showDropdown} className="cursor-pointer">
-    <img src="src\assets\white arrow.svg" alt="arrow" />
-  </button>
-</div>; */
-}
