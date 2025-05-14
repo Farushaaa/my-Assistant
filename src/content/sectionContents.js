@@ -374,25 +374,29 @@ export const reviewsContent = {
   ],
 };
 
+import TelegramIcon from "../assets/telegramIcon.svg";
+import InstagramIcon from "../assets/instagramIcon.svg";
+import WhatsappIcon from "../assets/whatsappIcon.svg";
+
 export const contactsContent = [
   {
     id: 1,
     item: "Telegram",
-    imgSource: "src/assets/icons8-telegram 1.svg",
+    imgSource: TelegramIcon,
     description: "Telegram icon",
     href: "https://web.telegram.org/k/#@rahmuni",
   },
   {
     id: 2,
     item: "Whatsapp",
-    imgSource: "src/assets/icons8-whatsapp 1.svg",
+    imgSource: InstagramIcon,
     description: "Whatsapp icon",
     href: "",
   },
   {
     id: 3,
     item: "Instagram",
-    imgSource: "src/assets/icons8-instagram-96 1.svg",
+    imgSource: WhatsappIcon,
     description: "Instagram icon",
     href: "https://www.instagram.com/my_assistentt/",
   },

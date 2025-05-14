@@ -1,4 +1,6 @@
 import { applicationFormContent } from "../content/sectionContents";
+import WorkingMan from "../assets/manWorking.png";
+import TickImg from "../assets/tick.svg";
 
 const Application = ({ lang, applicationForm }) => {
   return (
@@ -18,7 +20,7 @@ const Application = ({ lang, applicationForm }) => {
           </h1>
           <div>
             <img
-              src="src\assets\man working.png"
+              src={WorkingMan}
               alt="Man working"
               className="w-[300px] h-[300px]"
             />
@@ -44,11 +46,7 @@ const Application = ({ lang, applicationForm }) => {
             <p className="text-white text-[18px]">
               {lang === "ru" ? "Оставить заявку" : "Apply"}
             </p>
-            <img
-              src="src\assets\tick.svg"
-              alt="tick"
-              className="h-[25px] w-[25px]"
-            />
+            <img src={TickImg} alt="tick" className="h-[25px] w-[25px]" />
           </div>
         </div>
       </div>

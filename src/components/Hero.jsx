@@ -1,4 +1,6 @@
 import { heroSectionContent } from "../content/sectionContents";
+import WorkingManImg from "../assets/young_man.png";
+import RightArrow from "../assets/RightArrow.svg";
 
 const Hero = ({ lang, handleScroll, applicationForm, heroSectionRef }) => {
   return (
@@ -20,13 +22,13 @@ const Hero = ({ lang, handleScroll, applicationForm, heroSectionRef }) => {
           </p>
           <img
             className="h-[25px] w-[25px] ml-2"
-            src="src\assets\arrow to right.svg"
+            src={RightArrow}
             alt="right arrow"
           />
         </div>
       </div>
       <div className="hidden xl:block w-[750px] h-[500px] absolute right-0 top-0  ">
-        <img src="src\assets\young_man.png" alt="young man working" />
+        <img src={WorkingManImg} alt="young man working" />
       </div>
     </div>
   );

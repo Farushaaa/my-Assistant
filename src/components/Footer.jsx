@@ -1,4 +1,3 @@
-import React from "react";
 import { contactsContent } from "../content/sectionContents";
 const Footer = () => {
   return (

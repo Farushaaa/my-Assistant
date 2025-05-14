@@ -1,4 +1,5 @@
 import { servicesContent } from "../content/sectionContents";
+import WomanImg from "../assets/businesswoman.png";
 
 const ServicesSection = ({ lang }) => {
   return (
@@ -14,7 +15,7 @@ const ServicesSection = ({ lang }) => {
         }}
       >
         <div className="lg:block hidden w-[700px] h-[500px] ml-20 mt-10">
-          <img src="src\assets\businesswoman.png" alt="businesswoman smiling" />
+          <img src={WomanImg} alt="businesswoman smiling" />
         </div>
 
         <div className="flex flex-col ">
