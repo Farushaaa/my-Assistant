@@ -430,3 +430,74 @@ export const servicesContent = {
     ],
   },
 };
+
+export const sectionsContent = {
+  ru: [
+    {
+      text: "О нас",
+      id: "1",
+    },
+    {
+      text: "Услуги",
+      id: "2",
+    },
+    {
+      text: "Как это работает?",
+      id: "3",
+    },
+    {
+      text: "Преимущества",
+      id: "4",
+    },
+    {
+      text: "Отзывы",
+      id: "5",
+    },
+    {
+      text: "Тарифы",
+      id: "6",
+    },
+    {
+      text: "FAQ",
+      id: "7",
+    },
+    {
+      text: "Контакты",
+      id: "8",
+    },
+  ],
+  en: [
+    {
+      text: "About us",
+      id: "1",
+    },
+    {
+      text: "Services",
+      id: "2",
+    },
+    {
+      text: "How it works?",
+      id: "3",
+    },
+    {
+      text: "Advantages",
+      id: "4",
+    },
+    {
+      text: "Reviews",
+      id: "5",
+    },
+    {
+      text: "Pricing",
+      id: "6",
+    },
+    {
+      text: "FAQ",
+      id: "7",
+    },
+    {
+      text: "Contacts",
+      id: "8",
+    },
+  ],
+};

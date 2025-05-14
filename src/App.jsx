@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="">
       <Navbar
         lang={lang}
         toggleLanguage={toggleLanguage}
